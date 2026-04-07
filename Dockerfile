@@ -1,5 +1,5 @@
-# 1. Use a lightweight version of Node.js
-FROM node:18-alpine
+# 1. Use a lightweight version of Node.js (20+ required for commander@14)
+FROM node:20-alpine
 
 # 2. Set the working directory inside the container
 WORKDIR /app

@@ -22,7 +22,7 @@ A **CLI-based caching proxy server** built with Node.js that forwards HTTP reque
 
 ## 📦 Tech Stack
 
-- **Runtime:** Node.js 18+ (native `fetch`)
+- **Runtime:** Node.js 20+ (native `fetch`)
 - **Framework:** Express.js
 - **CLI:** Commander.js
 - **Logging:** Chalk
