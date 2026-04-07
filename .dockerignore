@@ -1,0 +1,9 @@
+node_modules
+tests
+*.test.js
+README.md
+.git
+.gitignore
+.env
+.env.example
+coverage

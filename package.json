@@ -1,0 +1,31 @@
+{
+  "name": "caching-proxy",
+  "version": "1.0.0",
+  "description": "A CLI-based caching proxy server with TTL expiration, LRU eviction, and observability.",
+  "main": "src/index.js",
+  "bin": {
+    "caching-proxy": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js --port 3000 --origin http://dummyjson.com",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --forceExit"
+  },
+  "keywords": ["cache", "proxy", "cli", "lru", "ttl"],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.3",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@jest/globals": "^30.3.0",
+    "jest": "^30.3.0"
+  }
+}
