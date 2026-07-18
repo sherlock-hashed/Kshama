@@ -7,11 +7,6 @@
  *
  * This gives us O(1) get, set, and eviction — the same complexity
  * as a Doubly Linked List + HashMap approach, but with cleaner code.
- *
- * Interview talking points:
- * - LRU Cache (LeetCode #146) implemented in a real project
- * - TTL-based expiration for cache freshness
- * - Stats tracking for observability
  */
 
 class CacheService {
